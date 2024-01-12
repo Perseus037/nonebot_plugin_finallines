@@ -1,6 +1,6 @@
 <div align="center"> 
   
-  <img src="https://github.com/Perseus037/data/blob/master/longtu.png?raw=true" alt="2024年是龙年...我都准备好了" width="280" height="280">
+  <img src="https://github.com/Perseus037/data/blob/master/king%20power.png?raw=true" alt="我的王之力啊！" width="280" height="280">
 
 # nonebot-plugin-finallines
 
