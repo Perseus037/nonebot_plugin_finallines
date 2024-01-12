@@ -21,10 +21,10 @@ _✨一个发送劲道的最终台词的nonebot2插件✨_
   <img src="https://img.shields.io/github/license/lgc-NB2Dev/nonebot-plugin-uma.svg" alt="license">
 </a>
 <a href="https://pypi.python.org/pypi/nonebot-plugin-finallines">
-  <img src="https://img.shields.io/pypi/v/nonebot-plugin-longtu.svg" alt="pypi">
+  <img src="https://img.shields.io/pypi/v/nonebot-plugin-finallines.svg" alt="pypi">
 </a>
 <a href="https://pypi.org/project/nonebot-plugin-finallines/">
-  <img src="https://img.shields.io/pypi/dm/nonebot-plugin-longtu.svg" alt="pypi download">
+  <img src="https://img.shields.io/pypi/dm/nonebot-plugin-finallines.svg" alt="pypi download">
 </a>
 
 
