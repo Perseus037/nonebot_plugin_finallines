@@ -2,19 +2,18 @@ import random
 import json
 import os
 
-from nonebot import on_command， require
+from nonebot import on_command, require
 from nonebot.adapters import Bot, Event
-from nonebot_plugin_userinfo import UserInfo, EventUserInfo
 from nonebot.plugin import PluginMetadata
 
-"""
-加载saa插件 提供多适配器支持
-:::notice 请勿重复加载saa
-"""
 require("nonebot_plugin_saa")
 
 from nonebot_plugin_saa import MessageFactory, Text
 from nonebot_plugin_saa import __plugin_meta__ as saa_plugin_meta
+
+require("nonebot_plugin_userinfo")
+
+from nonebot_plugin_userinfo import UserInfo, EventUserInfo
 
 __version__ = "0.1.0.post3"
 __plugin_meta__ = PluginMetadata(
