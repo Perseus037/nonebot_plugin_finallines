@@ -38,9 +38,9 @@ _✨一个发送劲道的最终台词的nonebot2插件✨_
 
 一个简单有趣的的nonebot2插件，输入指令后会回复一句劲道的最终台词，大部分出自或致敬游戏，动漫，小说的知名作品，小部分是自己编着玩的。
 
-前置插件：nonebot_plugin_saa,nonebot_plugin_userinfo,使用前请确认这两个插件已经正确安装并成功加载。
+前置插件：nonebot_plugin_userinfo,使用前请确认这两个插件已经正确安装并成功加载。
 
-使用nonebot_plugin_saa于nonebot_plugin_userinfo实现多适配器支持，支持的适配器：~onebot.v11, ~onebot.v12, ~QQ Guild,  WeChat, ~Kaiheila, Telegram, Feishu, Red
+使用nonebot_plugin_userinfo实现多适配器支持，支持的适配器：~onebot.v11, ~onebot.v12, ~QQ Guild,  WeChat, ~Kaiheila, Telegram, Feishu, Red
 
 灵感来源：https://cn.shindanmaker.com/1191352 
 
