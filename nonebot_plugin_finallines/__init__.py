@@ -5,10 +5,12 @@ import os
 from nonebot import on_command
 from nonebot.adapters import Bot, Event
 from nonebot_plugin_saa import MessageFactory, Text
+from nonebot_plugin_saa import __plugin_meta__ as saa_plugin_meta
 from nonebot_plugin_userinfo import UserInfo, EventUserInfo
 from nonebot.plugin import PluginMetadata
 
-__version__ = "0.1.0.post2"
+
+__version__ = "0.1.0.post3"
 __plugin_meta__ = PluginMetadata(
     name="最终台词",
     description="来一句劲道的最终台词吧,支持多平台适配",
@@ -16,8 +18,8 @@ __plugin_meta__ = PluginMetadata(
     homepage="https://github.com/Perseus037/nonebot_plugin_finallines",
     type="application",
     config=None,
-    supported_adapters={"~onebot.v11", "~onebot.v12", "~QQ Guild",  "WeChat", "~Kaiheila", "Telegram", "Feishu","Red"},
-)
+    supported_adapters=saa_plugin_meta.supported_adapters,
+),
 
 # 读取json文件
 def load_final_lines():
@@ -38,7 +40,7 @@ final_words_cmd = on_command("最终台词", priority=1)
 async def handle(user_info: UserInfo = EventUserInfo()):
     nickname = user_info.user_name if user_info.user_name else "你"
     final_word = random.choice(final_words)
-    reply = f"{nickname}的最终台词是：{final_word}"
+    reply = f"{nickname}的最终台词是：{final_word}" 
 
     message_builder = MessageFactory([Text(reply)])
     await message_builder.send()
