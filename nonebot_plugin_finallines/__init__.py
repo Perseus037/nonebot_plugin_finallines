@@ -2,7 +2,7 @@ import random
 import json
 import os
 
-from nonebot import on_command
+from nonebot import on_command， require
 from nonebot.adapters import Bot, Event
 from nonebot_plugin_userinfo import UserInfo, EventUserInfo
 from nonebot.plugin import PluginMetadata
