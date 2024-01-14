@@ -4,7 +4,7 @@ import os
 
 from nonebot import on_command, require
 from nonebot.adapters import Bot, Event
-from nonebot.plugin import PluginMetadata
+from nonebot.plugin import PluginMetadata, inherit_supported_adapters
 
 require("nonebot_plugin_saa")
 
@@ -15,6 +15,8 @@ require("nonebot_plugin_userinfo")
 
 from nonebot_plugin_userinfo import UserInfo, EventUserInfo
 
+supported_adapters_finallines = inherit_supported_adapters("nonebot_plugin_saa", "nonebot_plugin_userinfo")
+
 __version__ = "0.1.0.post3"
 __plugin_meta__ = PluginMetadata(
     name="最终台词",
@@ -23,7 +25,7 @@ __plugin_meta__ = PluginMetadata(
     homepage="https://github.com/Perseus037/nonebot_plugin_finallines",
     type="application",
     config=None,
-    supported_adapters=saa_plugin_meta.supported_adapters,
+    supported_adapters=supported_adapters_finallines,
 ),
 
 # 读取json文件
