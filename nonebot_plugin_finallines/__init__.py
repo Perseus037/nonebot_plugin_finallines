@@ -13,7 +13,7 @@ from nonebot_plugin_saa import __plugin_meta__ as saa_plugin_meta
 
 require("nonebot_plugin_userinfo")
 
-from nonebot_plugin_userinfo import UserInfo, EventUserInfo
+from nonebot_plugin_userinfo import UserInfo, EventUserInfo 
 
 supported_adapters_finallines = inherit_supported_adapters("nonebot_plugin_saa", "nonebot_plugin_userinfo")
 
