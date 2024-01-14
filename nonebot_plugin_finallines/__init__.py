@@ -17,7 +17,7 @@ from nonebot_plugin_userinfo import UserInfo, EventUserInfo
 
 supported_adapters_finallines = inherit_supported_adapters("nonebot_plugin_saa", "nonebot_plugin_userinfo")
 
-__version__ = "0.1.1.post1"
+__version__ = "0.1.1.post2"
 __plugin_meta__ = PluginMetadata(
     name="最终台词",
     description="来一句劲道的最终台词吧,支持多平台适配",
@@ -26,7 +26,7 @@ __plugin_meta__ = PluginMetadata(
     type="application",
     config=None,
     supported_adapters=supported_adapters_finallines,
-),
+)
 
 # 读取json文件
 def load_final_lines():
