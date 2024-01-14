@@ -1,6 +1,6 @@
 [project]
 name = "nonebot-plugin-finallines"
-version = "0.1.0.post1"
+dynamic = ["version"]
 description = "A NoneBot plugin for random final lines."
 authors = [{ name = "Perseus037", email = "1209228678@qq.com" }]
 dependencies = [
