@@ -17,7 +17,7 @@ from nonebot_plugin_userinfo import UserInfo, EventUserInfo
 
 supported_adapters_finallines = inherit_supported_adapters("nonebot_plugin_saa", "nonebot_plugin_userinfo")
 
-__version__ = "0.1.0.post4"
+__version__ = "0.1.1.post1"
 __plugin_meta__ = PluginMetadata(
     name="最终台词",
     description="来一句劲道的最终台词吧,支持多平台适配",
